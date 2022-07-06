@@ -1,0 +1,34 @@
+body{
+    background-color: beige;
+    font-family: 'Ubuntu', sans-serif;
+}
+h1{
+    font-size: 70px;
+}
+.name{
+    color: orangered;
+}
+.half-width{
+    width: 40%;
+    float:  left;
+    margin-left: 80px;
+    padding-left: 30px;
+}
+.half-width img{
+    width: 100%;
+    margin-left: 20px;
+    float: right;
+}
+#wel{
+    margin-top: 10px;
+    padding-top: 30px;
+}
+#me{ padding-bottom: 200px;
+    margin: bottom 200px;;
+
+    float: right;
+    
+}
+#to{
+    font-size: 50px;
+}
