@@ -1,18 +1,27 @@
 body{
-    background-color: beige;
+    
     font-family: 'Ubuntu', sans-serif;
+    margin: 0;
 }
 h1{
     font-size: 70px;
 }
+h2{ font-size: 30px;}
+h3{
+    font-size: 20px;
+} p{ color: gray;}
+
 .name{
     color: orangered;
+}
+.name:hover{ color: aqua;
+
 }
 .half-width{
     width: 40%;
     float:  left;
-    margin-left: 80px;
-    padding-left: 30px;
+    margin-left: 50px;
+    padding-left: 20px;
 }
 .half-width img{
     width: 100%;
@@ -31,4 +40,55 @@ h1{
 }
 #to{
     font-size: 50px;
+}
+section{ height: 500px;
+         padding-bottom: 200px;
+
+}
+.top{ 
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    
+}
+.link-button{
+    text-decoration: none;
+    background-color: orangered;
+    padding:10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+ 
+
+}
+.link-button:hover{
+    background-color: aqua;
+}
+.dream{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.single{
+    box-shadow: 10px 10px 40px gray;
+    height: 60%;
+    background-color: white;
+}
+.exp-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+#full{
+    border-left: 5px solid;
+    border-image: linear-gradient( rgb(212, 64, 6),tomato);
+    border-image-slice: 1;
+}
+#baby{
+    border-left: 5px solid;
+    border-image: linear-gradient( blue,cyan) ;
+    border-image-slice: 1;
+}footer p{
+    text-align: center;
+    font-size: 12px;
 }
